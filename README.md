@@ -1,4 +1,4 @@
-Project Overview: The project implements a dimensional data mart using sakila, a dataset that involves the transactions of movie rentals. This primarily focuses on the payment transactions, and give insight on total revenue/payments per country. ##
+Project Overview: The project implements a dimensional data mart using sakila, a dataset that involves the transactions of movie rentals. This primarily focuses on the payment transactions, and give insight on total revenue/payments per country. It also give information regarding the impact of the length of a film on a customer's impact on total revenue and payments. The project also showed how transaction information changed over time. 
 
 Data Sources: I sampled my data from https://dataedo.com/kb/databases/mysql/sample-databases. 
 The Sakila data was imported into MySQL by executing the SQL file in MySQL workbench. I used dataset given and converted the customer table into a csv. I obtained data for dim_films by using MongoDB atlas and creating a MongoDB cluster. 
